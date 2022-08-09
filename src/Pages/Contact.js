@@ -24,6 +24,11 @@ export default function Contact() {
       <div className={classes["main-image"]}>
         <img src={mealsImage2} alt="A table full of delicious food!" />
       </div>
+      <div className={classes.aside}>
+        <h4>We'd love to hear from you</h4>
+        <p>Whether you have question about features, price need a demo or anything else, our team is ready to answer all the question</p>
+        <h3>Get in touch</h3>
+      </div>
      <Form />
      <Footer />
     </CartProvider>
