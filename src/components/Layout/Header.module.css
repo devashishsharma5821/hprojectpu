@@ -55,7 +55,7 @@
   border-bottom: 4px solid #95bcf0;
 }
 
-.Icon{
+.Icon {
   position: fixed;
   left: 0;
   margin-top: 10px !important;
@@ -64,12 +64,12 @@
 
 /* below style are for about section */
 
-.services{
+.services {
   width: 100%;
   background-color: white;
 }
 
-.services h2{
+.services h2 {
   width: 100%;
   margin: 0;
   padding: 20px 0px;
@@ -79,42 +79,67 @@
   text-decoration: underline;
 }
 
-.services_container{
+.services_container {
   padding: 35px 0px;
   display: flex;
   width: 100%;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-
-.services_container div{
+.services_container div {
   width: 31%;
   background-color: rgb(237, 228, 228);
   border: 1.6px solid red;
   border-radius: 15px;
-  box-shadow: -7px 10px 8px #888888 ;
+  box-shadow: -7px 10px 8px #888888;
 }
 
-
-.services_container h2{
+.services_container h2 {
   padding: 10px;
   font-size: 2rem;
   text-decoration: none;
 }
 
-.services_container p{
+.services_container p {
   width: 90%;
   margin: 20px auto;
 }
-  
-.pic{
-    width: 60% !important;
-    margin: 20px auto;
-    border: none !important;
-  }
-  
-.pic img{
-    width: 100%;
-    border-radius: 30px;
-  }
+
+.pic {
+  width: 60% !important;
+  margin: 20px auto;
+  border: none !important;
+}
+
+.pic img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.aside {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(
+      217deg,
+      rgb(181 8 8 / 80%),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgb(7 96 7 / 80%), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgb(12 12 50 / 80%), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.aside h4 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.2rem;
+  padding: 22px;
+}
+
+.aside p{
+  text-align: center;
+}
+
+.aside h3{
+  text-align: center;
+}
