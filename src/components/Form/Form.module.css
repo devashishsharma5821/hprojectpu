@@ -21,7 +21,6 @@
 .form_container form label{
      font-size: 1.8rem;
      font-family: cursive;
-     text-shadow: 2px 2px 8px #FF0000;
 }
 .form_container form select{
     height:40px;
@@ -37,10 +36,11 @@
 .btn{
     width:10%;
     width: 150px;
+    border-radius: 10px;
     background: #751616;
     color: white;
     font-size: 1.3rem;
-    padding: 10px;
+    padding: 7px;
     margin: 10px auto;
 }
 

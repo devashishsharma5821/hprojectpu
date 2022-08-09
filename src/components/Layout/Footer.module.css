@@ -2,6 +2,7 @@
     height:63px;
     background-color: rgb(30 36 15);
     color: white;    
+    display: flex;
 }
 
 .footer p{
@@ -9,4 +10,21 @@
     text-align: center;
     margin: 0px;
     padding: 20px;
+}
+
+.footer div{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Icons{
+    list-style: none;
+    display: flex;
+    width:50%;
+}
+
+.Icons li{
+    margin: auto 8px;
+    cursor: pointer;
 }
